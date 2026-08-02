@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import CartItems from "../components/checkout/cart-item";
-import OrderInformation from "../components/checkout/oder-information";import { CustomerInfo, useCartStore } from "@/app/hooks/use-cart-store";
+import OrderInformation from "../components/checkout/oder-information";import { CustomerInfo, useCartStore } from "../../hooks/use-cart-store";
 import { useRouter } from "next/navigation";
 
 const Checkout = () => {
